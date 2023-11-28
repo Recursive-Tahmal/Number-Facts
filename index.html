@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Number Facts</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js" defer></script>
+</head>
+
+<body>
+  <h1>Facts about Numbers</h1>
+
+  <section class="container">
+    <label for="numberInput">Enter a positive number</label>
+    <label for="numberInput" id="errorMsg"></label>
+    <input type="number" id="numberInput" name="numberInput" onkeydown="clearOnEscape(event)">
+
+    <div>
+      <button onclick="trivia()">Get Trivia Info</button>
+      <button onclick="math()">Get Math Info</button>
+      <button onclick="date()">Get Year Info</button>
+    </div>
+    <div>
+      <button onclick="random(1)">Get Random Trivia Info</button>
+      <button onclick="random(2)">Get Random Math Info</button>
+      <button onclick="random(3)">Get Random Date Info</button>
+    </div>
+    <button onclick="clearInfo()" class="clearButton">Clear</button>
+    <div>
+      <ul id="output"></ul>
+    </div>
+  </section>
+</body>
+
+</html>

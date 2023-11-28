@@ -1,0 +1,112 @@
+/* Reset default margin, padding, and font for better consistency */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Style for the main heading */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Container styling for layout and aesthetics */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling for form elements */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Input styling with width, padding, and margin adjustments */
+input {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Button styling for a clean and clickable appearance */
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Hover effect for button */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Clear button styling */
+.clearButton {
+    width: 24%;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* List styling with no bullets and zero padding */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Paragraph styling to remove default margin and add some bottom margin */
+p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/* Output container styling with max height and scroll for overflow */
+#output {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+/* List item styling with padding, border, and copy cursor */
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: copy;
+}
+
+/* Styling for the "Copied!" message */
+.copied-message {
+    position: fixed;
+    background-color: #4c77af;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    pointer-events: none;
+
+    /* Center the message horizontally and vertically */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -15%);
+}
+
+/* Styling for error messages */
+#errorMsg {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: none;
+}
