@@ -1,5 +1,6 @@
 # Number-Facts
 Link: https://recursive-tahmal.github.io/Number-Facts/
+API won't work since GitHub pages is a hosting provider for static pages.
 <br>
 API Credit to http://numbersapi.com/
 
